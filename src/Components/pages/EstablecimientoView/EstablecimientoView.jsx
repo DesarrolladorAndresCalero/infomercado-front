@@ -4,6 +4,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { Table, Button } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 
+
 const EstablecimientoView = () => {
   const [establecimientos, setEstablecimientos] = useState([]);
   const [loading, setLoading] = useState(false);
