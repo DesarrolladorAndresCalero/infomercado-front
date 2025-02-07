@@ -1,0 +1,190 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+    border-radius: 3px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.header img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: auto;  
+}
+
+.bnv{
+    color: rgb(32, 32, 116);
+    font-weight: bold;
+}
+
+.info-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    font-size: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+    padding: 10vh 0 0 0;
+}
+
+.tabla{
+    margin: 0 10% 0 10%;
+    padding: 2vh 0 0 0;
+}
+
+.min-title{
+    color: black
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    background-color: #f00474;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding: 0 10px 0 10px;
+
+}
+
+.custom-header {
+    background-color: #589cec !important;
+    color: white !important;
+  }
+
+.table th, .table td {
+    text-align: center;
+  }
+  
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  
+  .table td, .table th {
+    padding: 10px;
+  }
+  
+  .buscarInp {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .buscarInp:focus {
+    border-color: #2E7D32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+  }
+  
+  .buscar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buscar:hover {
+    background-color: #388E3C;
+  }
+  
+  .buscar:active {
+    background-color: #2E7D32;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    justify-content: center; 
+    margin-bottom: 20px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .pag-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pag-btn:hover {
+    background-color: #388E3C;
+  }
+  
+  .pag-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  /* Estilos para la selección de elementos por página */
+.select-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .select-container label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .select-container select {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .select-container select:focus {
+    outline: none;
+    border-color: #f00474; /* Color consistente con los botones */
+  }
+  
